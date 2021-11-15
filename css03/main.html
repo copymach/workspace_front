@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style>
+            /* clearfix */
+            .clearfix{*zoom:1;}
+            .clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+            .clearfix:after {clear: both;}
+
+            body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, input, fieldset, legend, p, select, table, th, td, tr,
+            textarea, button, form {margin: 0; padding: 0; }
+
+            .header {background-color: blue; width: 700px;}
+            .nav {background-color: green;}
+            .content {background-color: yellow;}
+            .footer {background-color: gray;}
+
+            div a:link {color:black; text-decoration: none;}
+            div a:hover {color:black; text-decoration: none;}
+            div a:visited {color:black; text-decoration: none;}
+            div a:active {color:black; text-decoration: none;}
+
+            div ol li {
+                border : 0px 0px 0px 0px ;
+                padding: 20px 40px 20px 0px ;
+                float: left;
+
+                list-style-type: none;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="header">
+           <div><h1><a href="">MyPage</a></h1> </div>
+           
+            <ol class=clearfix>
+                <li>
+                    로그인
+                </li>
+                <li>
+                    회원가입
+                </li>
+            </ol>   
+               
+        </div>
+
+        <div class="nav">
+            nav
+        </div>
+
+        <div class="content">
+            contents
+        </div>
+
+        <div class="footer">
+            footer
+        </div>
+
+    </body>
+
+</html>

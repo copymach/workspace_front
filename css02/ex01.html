@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+    </head>
+ 
+    <style>
+        .box_blue {max-width: 50%; width:400px; height:100px; background-color: blue;}
+        .box_coral {width:100px; height:100px; min-height: 20%; background-color: coral;}
+        .box_gold {max-width:500px; min-width: 200px; max-height: 100px; min-height: 150px; background-color:gold}
+        .ib {display: inline-block; background-color: green;}
+
+        .bordertest {
+            background-color: hotpink;
+            max-width: 300px;
+            min-height: 50px;
+
+            border-width: 4px;
+            border-style: dotted;
+            border-color: #ff0000;
+        }
+
+        .bordertest2 {
+            background-color: hotpink;
+            max-width: 300px;
+            min-height: 50px;
+
+            border : 5px solid  #00ff00;
+            
+
+        }
+
+
+
+    </style>
+
+    <body>
+        <div class=bordertest>테두리 두께 연습</div>
+        <div class=bordertest2>테두리 두께 연습</div>
+        <br>
+        <div class="box_blue">div태그에 대한 연습 예입니다</div>
+        <div class="box_coral">산호색 박스 활용의 예입니다</div>
+        <div class="box_gold">금색 상자 활용의 예</div>
+        <br> 
+        
+        <span class=ib>가나다라마바사 블록인라인 테스트</span> <span>다음 스팬 태그</span>
+        
+        
+
+
+        <br><br><br><br>
+        
+    </body>
+
+</html>

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+  /* clearfix */
+            .clearfix{*zoom:1;}
+            .clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+            .clearfix:after {clear: both;}
+
+
+
+            .leftform {
+                padding: 10px 10px 10px 0px;
+                border-top: 1px solid gray;
+               
+            }
+            .txbox {
+                width: 160px;
+            }
+            .lefttx {
+                display: inline-block;
+                width: 100px;
+            }
+            .txbox2 {
+                margin-left: 107px;
+                margin-top: 5px;
+                display: block;
+                width: 400px;
+            }
+            .introduce {
+                /* padding: 5px 35px 5px 0px;
+                margin-bottom: 200px; */
+                display: inline-block;
+                
+            }
+            .texta {
+                padding: 0px 0px 0px 0px;
+                width: 450px;
+                height: 100px;
+                /* display: inline-block; */
+            }
+
+            .btn {
+                width: 70px;
+                padding: 5px 10px 5px 10px;
+                border-radius: 3%;
+                text-align: center;
+                cursor: pointer;
+            }
+            .btn-bottom {
+                text-align: center;
+                border-top: 1px solid gray;
+                padding: 10px 0px 0px 0px;
+            }
+
+            .btnSub {
+                background-color:green;
+                
+            }
+            .btnRst {
+                background-color: red;
+
+            }
+
+            .age {
+                margin-left: 20px;
+            }
+            .age1{
+                margin: 0px;
+            }
+
+            .hobby{
+                margin-left: 20px;
+            }
+            .hobby1{
+                margin: 0px;
+            }
+
+            .vc {
+                vertical-align: top;
+                height: 300px;
+                line-height: 300px;
+            }
+        
+
+
+
+

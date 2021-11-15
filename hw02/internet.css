@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {font-family :"맑은 고딕", 돋움; font-size : 17px;} /* 전체 적용 */
+h2 {font-size: 25px;}
+h3 {font-size: 20px;}
+
+.title {font-family: 궁서; font-size: 30px; word-spacing: 15px;}
+.ib00f {font-style:italic; font-weight: bold; color: #00f;}
+.ibf00 {font-style:italic; font-weight: bold; color: #f00;}
+
+.ihistorytitle {text-decoration: underline; color:#00ff00} /* 인터넷역사제목 */
+.bf00 {font-weight: bold; color: #f00;}
+.iuser {text-decoration: underline;}
+
+.hsbackgd {text-indent: 30px; background-color: #d9d9d9;} /*들여쓰기 배경회색*/
+
+.b0f0 {font-weight: bold; color: #00ff00;}
+.i00f {font-style: italic; color: #00f;}
+.bf00 {font-weight: bold; color: #f00;}
+
+.delbl {list-style-type: none;} /* 블릿지우기 */
+.square {list-style-type: square;}
+
+thead {background-color: #c8ebfa;} /* 테이블 머리 색 */
+/*.hover:hover {background-color: #edd3ed;} 표에 마우스 올라가면 핑크*/
+#tbl-speed tr:hover {background-color: #edd3ed;} /* 표에 마우스 올라가면 핑크 */
+
+
+.align {text-align: right;} /* 정렬과 문자열 자동입력 */
+.align:before {content:"약 "}
+.align::after {content: " (MB/초)";}
+
+/* #tbl-speed a:link {color:#000000; text-decoration: "none";}  이상하게 안먹는 코드 방문전: 글자색 #00000 선없음 */
+/* #tbl-speed a:visited {color:#000000} 방문후: 글자색 #00000 */
+#tbl-speed a:hover {color:#0000ff; text-decoration: "underline";} /* 마우스오버: 글자색 #0000FF 아래선 */
+#tbl-speed a:active {color:#ff0000; text-decoration: "line-through";} /* 클릭시 글자색 #0000FF 아래선 */
+.nation:link {color:red;}
+
+.test:link {color:red}
+
+/* .h3-2 p {line-height: 35px; color:red} 클래스 2개 써보기 테스트 인터넷 이용자 수 문단 줄간격 35px */
+
+
